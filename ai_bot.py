@@ -94,7 +94,7 @@ def get_ai_response(from_user, text):
     # AIのパラメータ
     parameters = {
         "model": azure_openai_model,  # AIモデル
-        "max_tokens": 200,  # 返信メッセージの最大トークン数
+        "max_tokens": 202,  # 返信メッセージの最大トークン数
         "temperature": 0.5,  # 生成の多様性（0: 最も確実な回答、1: 最も多様な回答）
         "frequency_penalty": 0,  # 同じ単語を繰り返す頻度（0: 小さい）
         "presence_penalty": 0,  # すでに生成した単語を再度生成する頻度（0: 小さい）
